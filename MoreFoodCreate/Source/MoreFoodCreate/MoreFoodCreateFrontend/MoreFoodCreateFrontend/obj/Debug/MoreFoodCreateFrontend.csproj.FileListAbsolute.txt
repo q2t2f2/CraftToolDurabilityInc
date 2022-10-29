@@ -1,0 +1,12 @@
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\bin\Debug\MoreFoodCreateFrontend.dll
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\bin\Debug\MoreFoodCreateFrontend.pdb
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\bin\Debug\Redzen.dll
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\obj\Debug\MoreFoodCreateFrontend.csproj.AssemblyReference.cache
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\obj\Debug\MoreFoodCreateFrontend.csproj.CoreCompileInputs.cache
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\obj\Debug\MoreFoodCreateFrontend.dll
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateFrontend\MoreFoodCreateFrontend\obj\Debug\MoreFoodCreateFrontend.pdb
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\MoreFoodCreate\Plugins\MoreFoodCreateFrontend.dll
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\MoreFoodCreate\Plugins\MoreFoodCreateFrontend.pdb
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\CraftToolDurabilityInc\Plugins\MoreFoodCreateFrontend.dll
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\CraftToolDurabilityInc\Plugins\MoreFoodCreateFrontend.pdb

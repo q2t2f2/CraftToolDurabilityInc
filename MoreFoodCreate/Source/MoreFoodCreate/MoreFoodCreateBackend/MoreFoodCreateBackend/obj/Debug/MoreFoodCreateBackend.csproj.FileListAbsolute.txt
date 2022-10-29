@@ -1,0 +1,8 @@
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateBackend\MoreFoodCreateBackend\obj\Debug\MoreFoodCreateBackend.csproj.AssemblyReference.cache
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateBackend\MoreFoodCreateBackend\obj\Debug\MoreFoodCreateBackend.csproj.CoreCompileInputs.cache
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\MoreFoodCreate\Plugins\MoreFoodCreateBackend.dll
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\MoreFoodCreate\Plugins\MoreFoodCreateBackend.pdb
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateBackend\MoreFoodCreateBackend\obj\Debug\MoreFoodCreateBackend.dll
+D:\移动云盘同步文件夹\13436819765\ModProjects\MoreFoodCreate\Source\MoreFoodCreate\MoreFoodCreateBackend\MoreFoodCreateBackend\obj\Debug\MoreFoodCreateBackend.pdb
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\CraftToolDurabilityInc\Plugins\MoreFoodCreateBackend.dll
+G:\Game\Steam\steamapps\common\The Scroll Of Taiwu\Mod\CraftToolDurabilityInc\Plugins\MoreFoodCreateBackend.pdb

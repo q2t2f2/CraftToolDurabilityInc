@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreFoodCreateBackend", "MoreFoodCreateBackend\MoreFoodCreateBackend\MoreFoodCreateBackend.csproj", "{488BD4B6-33E1-47A6-B48C-F413662D5175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreFoodCreateFrontend", "MoreFoodCreateFrontend\MoreFoodCreateFrontend\MoreFoodCreateFrontend.csproj", "{91033DA0-615C-4A12-BD67-CB5CB30F3875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488BD4B6-33E1-47A6-B48C-F413662D5175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488BD4B6-33E1-47A6-B48C-F413662D5175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488BD4B6-33E1-47A6-B48C-F413662D5175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488BD4B6-33E1-47A6-B48C-F413662D5175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91033DA0-615C-4A12-BD67-CB5CB30F3875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91033DA0-615C-4A12-BD67-CB5CB30F3875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91033DA0-615C-4A12-BD67-CB5CB30F3875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91033DA0-615C-4A12-BD67-CB5CB30F3875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ECDFFF5-FD58-4F58-9669-075D1B9346C6}
+	EndGlobalSection
+EndGlobal
