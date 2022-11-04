@@ -89,16 +89,25 @@ namespace MoreFoodCreateFrontend
         [HarmonyPostfix, HarmonyPatch(typeof(UI_Make), "ConfirmMake")]
         public static void UI_MakeConfirmMake_Patch(UI_Make __instance, List<ItemDisplayData> ____allItems, CButton ____makeButtonNext, ItemDisplayData ____currentTool)
         {
-            if (false == NoCraftToolDurabilityReduce) return;
-            ItemDisplayData itemDisplayData2 = ____allItems.Find((ItemDisplayData d) => d.Key.Equals(____currentTool.Key));
-            if (itemDisplayData2 != null)
+            if (false == NoCraftToolDurabilityReduce)
             {
-                itemDisplayData2.Durability = itemDisplayData2.Durability > (short)CraftToolDurability ? itemDisplayData2.Durability : (short)CraftToolDurability;
-            }
-            Debug.Log($"刷新工具耐久度！");
+                //Debug.Log($"UI_MakeConfirmMake_Patch设置MaxButton按钮显示");
+                UpdateButtonMaxVisible(__instance, ____makeButtonNext);
+                return;
+            }else
+            {
+                ItemDisplayData itemDisplayData2 = ____allItems.Find((ItemDisplayData d) => d.Key.Equals(____currentTool.Key));
 
-            //Debug.Log($"UI_MakeConfirmMake_Patch设置MaxButton按钮显示");
-            UpdateButtonMaxVisible(__instance, ____makeButtonNext);
+                if (itemDisplayData2 != null && CraftToolDurability > 0)
+                {
+                    itemDisplayData2.Durability = itemDisplayData2.Durability > (short)CraftToolDurability ? itemDisplayData2.Durability : (short)CraftToolDurability;
+                    Debug.Log($"刷新工具耐久度！");
+                }
+
+                //Debug.Log($"UI_MakeConfirmMake_Patch设置MaxButton按钮显示");
+                UpdateButtonMaxVisible(__instance, ____makeButtonNext);
+            }
+           
         }
 
 
