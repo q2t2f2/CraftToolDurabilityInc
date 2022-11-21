@@ -17,7 +17,7 @@ using TaiwuModdingLib.Core.Plugin;
 
 namespace SXDZD
 {
-    [PluginConfig(pluginName: "CraftToolDurabilityInc", creatorId: "熟悉的总督", pluginVersion: "0.4")]
+    [PluginConfig(pluginName: "CraftToolDurabilityInc", creatorId: "熟悉的总督", pluginVersion: "0.5")]
     public class MoreFoodCreateBackend : TaiwuRemakeHarmonyPlugin
     {
         public static int CraftToolDurability = 200;
