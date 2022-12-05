@@ -8,7 +8,7 @@ using SXDZD.Tools;
 
 namespace MoreFoodCreateFrontend
 {
-    [PluginConfig(pluginName: "CraftToolDurabilityInc", creatorId: "熟悉的总督", pluginVersion: "0.4")]
+    [PluginConfig(pluginName: "CraftToolDurabilityInc", creatorId: "熟悉的总督", pluginVersion: "0.5")]
     public class MoreFoodCreateFrontend : TaiwuRemakePlugin
     {
         private Harmony harmony;
@@ -55,7 +55,7 @@ namespace MoreFoodCreateFrontend
                 __instance.ExcuteMethod("CheckCondition", new object[] { });
                 Debug.Log($"设置制造次数为：{maxNum}");
             });
-
+            UpdateButtonMaxVisible(__instance, ____makeButtonNext);
         }
 
         public static void UpdateButtonMaxVisible(UI_Make __instance, CButton ____makeButtonNext)
@@ -98,9 +98,11 @@ namespace MoreFoodCreateFrontend
             {
                 ItemDisplayData itemDisplayData2 = ____allItems.Find((ItemDisplayData d) => d.Key.Equals(____currentTool.Key));
 
-                if (itemDisplayData2 != null && CraftToolDurability > 0)
+                if (itemDisplayData2 != null)
                 {
-                    itemDisplayData2.Durability = itemDisplayData2.Durability > (short)CraftToolDurability ? itemDisplayData2.Durability : (short)CraftToolDurability;
+                    short newDurability = CraftToolDurability > 0 ? (short)CraftToolDurability : itemDisplayData2.MaxDurability;
+
+                    itemDisplayData2.Durability = itemDisplayData2.Durability > newDurability ? itemDisplayData2.Durability : newDurability;
                     Debug.Log($"刷新工具耐久度！");
                 }
 
